@@ -31,3 +31,64 @@ li {
 hr {
   margin-top: 16px;
 }
+
+/* **Main** */
+/* Hero */
+.hero-container {
+  padding: 60px 40px;
+  background-color: #543c32;
+}
+
+.date {
+  font-size: 16px;
+  color: #9a9a9a;
+  margin-bottom: 12px;
+}
+
+.hero-text {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.writer-info-container {
+  display: flex;
+  gap: 60px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.writer-info-title {
+  font-size: 16px;
+  color: #9a9a9a;
+}
+
+.writer-info {
+  font-size: 18px;
+  color: #d1d1d1;
+}
+
+/* Information */
+.information-container {
+  padding: 60px 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.information-title {
+  line-height: 24px;
+}
+
+.information-text {
+  color: #5d5d5d;
+  line-height: 20px;
+}
+
+.information-img-container {
+  grid-column: 1/3;
+}
