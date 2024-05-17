@@ -92,3 +92,10 @@ hr {
 .information-img-container {
   grid-column: 1/3;
 }
+
+/* Footer */
+footer {
+  background-color: #543c32;
+  padding: 16px 40px;
+  color: #fff;
+}
