@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  font-family: sans-serif;
+}
+/* **Header** */
+header {
+  padding: 16px 40px;
+  background-color: #543c32;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+li {
+  list-style-type: none;
+}
+hr {
+  margin-top: 16px;
+}
